@@ -2,5 +2,10 @@
   "name": "packaged/polyfill-intl",
   "license": "MIT",
   "require": {
+    "ext-intl": "*"
+  },
+  "replace": {
+    "symfony/polyfill-intl-icu": "*",
+    "symfony/polyfill-intl-idn": "*"
   }
 }
